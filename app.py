@@ -3,7 +3,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-MAPS_API_KEY = 'AIzaSyDQ4LfhiD17AesEqiAbHKYJQk0R8bu-uUg'
+MAPS_API_KEY = ''
 
 @app.route('/')
 def index():
